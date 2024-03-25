@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href= "{{ url_for('static',filename='styles/style.css') }}">
+  <title>DNA Info</title>
+</head>
+<body>
+  
+  <div class="content">
+    
+    <h1>🧬 DNA Info 🧬</h1>
+    
+    <form class="inputform" action="submit">
+      <span class="label">Codons</span><br>
+      <div class="codoninputs">
+        <input type="text" class="codoninput original" maxlength="3" required>
+        <span class="codonhyphen dna original">-</span>
+      </div>
+      <button class="btn eval" type="submit">Evaluate</button>
+      <button class="btn clear" onclick="">Clear All</button>
+    </form>
+
+    <div class="out" hidden>
+      <hr class="outputdivider">
+
+      <div class="outputs">
+        <div class="outputsection mrna">
+          <span class="label">mRNA</span><br>
+        </div>
+        <div class="outputsection proteins">
+          <span class="label">Proteins</span><br>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="{{ url_for('static',filename='script.js') }}"></script>
+  
+</body>
+</html>

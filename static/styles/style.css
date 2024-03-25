@@ -1,0 +1,79 @@
+body {
+  background-color: #00659b;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  position: absolute;
+  margin-left: 12%;
+  margin-top: 100px;
+  background-color: #023e8a;
+  width: 75%;
+  padding-bottom: 50px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.codoninput {
+  background-color: #0096c7;
+  border: none;
+  border-radius: 15px;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+  width: 70px;
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.codonhyphen {
+  margin: 10px;
+}
+
+.btn {
+  background-color: #1c61ac;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  margin-top: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.output {
+  background-color: #007095;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  margin-right: 2px;
+}
+
+.outputsection {
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.outputdivider {
+  border: 3px solid #00659b;
+}
+
+.outputsection .codonhyphen {
+  position: relative;
+  top: 20px;
+}

@@ -1,0 +1,142 @@
+{
+  "U": {
+    "U": [
+      {
+        "bases": ["U", "C"], 
+        "protein": "Pherylalanine"
+      }, 
+      {
+        "bases": ["A", "G"], 
+        "protein": "Leucine"
+      }
+    ], 
+    "C": [
+      {
+        "bases": ["U", "C", "A", "G"], 
+        "protein": "Serine"
+      }
+    ], 
+    "A": [
+      {
+        "bases": ["U", "C"], 
+        "protein": "Tyrosine"
+      },
+      {
+        "bases": ["A", "G"], 
+        "protein": "Stop"
+      }
+    ], 
+    "G": [
+      {
+        "bases": ["U", "C"], 
+        "protein": "Cysteine"
+      }, 
+      {
+        "bases": ["A"], 
+        "protein": "Stop"
+      }, 
+      {
+        "bases": ["G"], 
+        "protein": "Tryptophan"
+      }
+    ]
+  }, 
+  "C": {
+    "U": [
+      {
+        "bases": ["U", "C", "A", "G"], 
+        "protein": "Leucine"
+      }
+    ], 
+    "C": [
+      {
+        "bases": ["U", "C", "A", "G"], 
+        "protein": "Proline"
+      }
+    ], 
+    "A": [
+      {
+        "bases": ["U", "C"], 
+        "protein": "Histidine"
+      },
+      {
+        "bases": ["A", "G"], 
+        "protein": "Glutamine"
+      }
+    ], 
+    "G": [
+      {
+        "bases": ["U", "C", "A", "G"], 
+        "protein": "Arginine"
+      }
+    ]
+  }, 
+  "A": {
+    "U": [
+      {
+        "bases": ["U", "C", "A"], 
+        "protein": "Isoleucine"
+      }, 
+      {
+        "bases": ["G"], 
+        "protein": "Methionine"
+      }
+    ], 
+    "C": [
+      {
+        "bases": ["U", "C", "A", "G"], 
+        "protein": "Threonine"
+      }
+    ], 
+    "A": [
+      {
+        "bases": ["U", "C"], 
+        "protein": "Asparagine"
+      },
+      {
+        "bases": ["A", "G"], 
+        "protein": "Lysine"
+      }
+    ], 
+    "G": [
+      {
+        "bases": ["U", "C"], 
+        "protein": "Serine"
+      }, 
+      {
+        "bases": ["A", "G"], 
+        "protein": "Arginine"
+      }
+    ]
+  }, 
+  "G": {
+    "U": [
+      {
+        "bases": ["U", "C", "A", "G"], 
+        "protein": "Valine"
+      }
+    ], 
+    "C": [
+      {
+        "bases": ["U", "C", "A", "G"], 
+        "protein": "Alanine"
+      }
+    ], 
+    "A": [
+      {
+        "bases": ["U", "C"], 
+        "protein": "Aspartic acid"
+      },
+      {
+        "bases": ["A", "G"], 
+        "protein": "Glutamic acid"
+      }
+    ], 
+    "G": [
+      {
+        "bases": ["U", "C", "A", "G"], 
+        "protein": "Glycine"
+      }
+    ]
+  }
+}
